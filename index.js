@@ -4,6 +4,11 @@ function geteInputAreaValu(){
    const height = geteInputValu('triangleHeight');
    const area = 0.5*base*height;
     setAreaValu('tranglevaluset', area);
+
+    // input  field clear krar jnno 
+    
+     // document.getElementById('rectanglebase').value = '';
+    // document.getElementById('rectangleheight').value = '';
 }
 
 // Rectangle Area
@@ -12,7 +17,6 @@ function geteRectangleArea(){
     const height = geteInputValu('rectangleheight');
     const area = base * height;
     setAreaValu('rectanglevaluset', area);
-    // document.getElementById('rectanglebase').value = '';
 }
 
 //  Parallelogram Area
